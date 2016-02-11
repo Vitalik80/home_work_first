@@ -1,0 +1,38 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-size: 18px;
+}
+.wrapper{
+    width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+.cont2{
+    background: #fff;
+    width: 500px;
+    margin: 5px auto 50px;
+    padding: 30px 0 50px;
+    box-shadow: 0 0 2px 1px rgba(213,213,213,1);
+}
+.cont3{
+    margin: 0 15px;
+}
+.menu{
+    text-align: center;
+}
+.menu2{
+    text-align: center;
+}
+.cont6, .cont4, .cont7 {
+    border-top: 1px solid black;
+}
+.num{
+    margin-top: 10px;
+}
+.num0{
+    margin-bottom: auto;
+}
