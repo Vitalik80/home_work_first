@@ -1,0 +1,255 @@
+@import "reset.css";
+@import "fonts.css";
+/*body {
+    background-color: #ffffff;
+    font-size: 13px;
+    font-family: Arial;
+  /*  position: relative;*/
+/*}
+.wrapper{
+    width: 1060px;
+    height: 950px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    margin: auto;
+  /*  position: relative;*/
+  /*  min-height: 100px;*/
+/*}
+.sh{
+    padding: 50px 45px;
+}
+.logo{
+    width: 145px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.menutop{
+    background: url("../img/menu.png") no-repeat;
+    width: 966px;
+    height: 40px;
+    padding-bottom: 40px;
+}
+.menutop ul{
+  /* display: inline-block;*/
+  /*  font-size: 0;*/
+
+
+/*}
+/*.menutop ul li {
+    float: left;
+    line-height: 40px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 14px;
+    display: inline-block;
+    letter-spacing: normal;
+   width: 100px;
+   text-align: center;
+    }
+
+.menutop ul li a:active {
+    border-right: 1px white;
+}
+.menutop ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menutop ul li a:visited{
+    color: white;
+    text-decoration: none;
+
+}
+.menutop li:hover{
+    background-color: #333333;
+    margin-right: 25px;
+    margin-left: 25px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 0 0 3px 1px rgba(250,247,250,1);
+   }
+
+.menu1 ul li a{
+    color: white;
+}
+.menuleft{
+    width: 240px;
+    height: 180px;
+    float: left;
+    border: solid 1px #c8c8c8;
+    border-bottom: none;
+    }
+.menuleft ul li {
+
+    border-bottom: solid 1px #c8c8c8;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.menuleft a{
+    text-decoration: none;
+    margin-left: 24px;
+    color: #666666;
+    border-top:solid 1px white ;
+}
+.menuleft li a:hover{
+    margin-left: 35px;
+}
+
+.bike1{
+    background-image: url("../img/bike.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 676px;
+    height: 400px;
+    border: 1px solid #cccccc;
+    margin-left: 50px;
+     margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
+/*}
+.fish{
+    width: 676px;
+    height: 135px;
+    margin-left:295px;
+
+}
+.foot1{
+    background:url("../img/menud.png");
+    width: 966px;
+    height: 40px;
+    position: absolute;
+    left: 40px;
+}
+.foot1 ul li a{
+    float: left;
+    margin-left: 25px;
+    margin-right: 95px;
+    line-height: 40px;
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+}
+.cr{
+    line-height: 40px;
+    margin-right: 25px;
+}
+/*.buffer{
+padding-bottom: 40px;
+}*/
+
+
+
+
+
+
+
+
+
+.body{
+    background-color: #ffffff;
+    font-family: Arial;
+}
+.wrapper{
+    width: 1060px;
+    height: 950px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+.sh{
+    padding: 45px 50px;
+}
+.logo{
+    margin-bottom: 40px;
+}
+.menutop{
+    background-image:url("..//img/menu.png");
+    width: 966px;
+    height: 40px;
+ }
+.menutop ul li{
+    float: left;
+    line-height: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    width: 100px;
+}
+.menutop a{
+    color: white;
+    text-decoration: none;
+}
+.menutop li:hover{
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 0 0 3px 1px rgba(250,247,250,1);
+    background-color: #333333;
+    text-align: center;
+    line-height: 40px;
+}
+.menuleft{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #cccccc;
+    margin-top: 45px;
+    float: left;
+}
+.menuleft li{
+    border-bottom: 1px solid #cccccc;
+    height: 40px;
+    line-height: 40px;
+}
+.menuleft a{
+    text-decoration: none;
+    color: #666666;
+    margin-left: 25px;
+}
+.menuleft li:last-child{
+    border-bottom: none;
+}
+.menuleft a:hover{
+    margin-left: 38px;
+    color: #333333;
+}
+.bike1{
+    width: 676px;
+    height: 400px;
+    border: 1px solid #cccccc;
+    background-image: url("../img/bike.png");
+    background-position: center;
+    background-repeat: no-repeat;
+   /* display: inline-block;*/
+}
+.fish{
+    width: 676px;
+    height: 135px;
+    margin-top: 40px;
+}
+.content{
+    float: right;
+    margin-top: 45px;
+}
+.foot1{
+    background-image: url("../img/menud.png");
+    width: 966px;
+    height: 40px;
+    clear: both;
+}
+.foot1 li{
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    margin-left: 25px;
+
+}
+.foot1 a{
+    text-decoration: none;
+    color: #333333;
+}
+.cr{
+    float: right;
+    line-height: 40px;
+    margin-right: 25px;
+}
+.foot1 li:nth-child(2){
+    text-decoration: underline;
+}
+
