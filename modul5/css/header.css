@@ -1,3 +1,8 @@
+.head{
+    height: 35px;
+    background-color: #003399;
+    width: 100%;
+}
 .header{
     width: 1215px;
     height: 35px;
@@ -6,81 +11,54 @@
     font-size: 14px;
     position: relative;
 }
-.top{
-    margin-left: 525px;
-
+.header ul{
+       float: right;
 }
-.top li{
+.header li{
     float: left;
     line-height: 35px;
-    color: #66ccff;
-   margin-left: 5px;
+    margin-left: 5px;
     margin-right: 5px;
 
 }
-.ajuda img{
-    position: absolute;
-    top: 2px;
-    right: 355px;
-}
-.button{
-    line-height: 35px;
-    color: white;
-}
-.top a{
-    color: #66ccff;
+.header a{
     text-decoration: none;
-}
-.button{
-    width: 190px;
-    height: 35px;
-    top: 1px;
-    float: right;
-    background-color:  #66ccff;
-    text-align: center;
-    padding-right: 5px;
-}
-.button a{
     color: white;
+    margin-left: 6px;
+    margin-right: 6px;
 }
-.top .mihas {
-    color: white;
-    margin-right: 15px;
-}
-.mihas{
-    width: 110px;
-}
-.mihas:before{
-    content: url("../img/flag.png");
-    line-height: 35px;
-    margin-top: 5px;
-    margin-bottom: -5px;
-    margin-right:10px;
-    margin-left: 35px;
-}
-/*.stick{
-    margin-right: 10px;
-    line-height: 35px;
-    margin-top: 10px;
-}*/
-/*.stick:after{
-   /* content: url("../img/stick.png");
-    margin-left: 10px;
-    padding-bottom: 10px;
-    margin-top:30px;
-}*/
-
-/*.top .stick{
-    margin-bottom: 10px;
-}*/
-.vender{
-     background-color:  #66ccff;
+.header li:hover{
+    background-color: #3399cc;
 }
 
-.vender a{
-    color: white;
-    display: block;
-    height: 100%;
-    width: 70px;
-    text-align: center;
+.minhas {
+    position: relative;
+    padding-left: 25px;
 }
+.minhas:before{
+    content: "";
+    position: absolute;
+    background-image: url("../img/flag.png");
+    width: 21px;
+    height: 23px;
+    left: 0;
+    top: -5px;
+}
+.ajuda{
+    position: relative;
+    padding-right: 10px;
+}
+.ajuda:after{
+    content: "";
+    background-image: url("../img/stick.png");
+    width: 1px;
+    height: 31px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+
+}
+.box:hover{
+    padding-bottom: solid 1px  #6699cc;
+}
+

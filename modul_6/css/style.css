@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "top.css";
+@import "menublack.css";
+body{
+   /* font-family: Arial;*/
+}
+.container{
+    height: 1310px;
+    width:1000px;
+    margin: auto;
+   /* padding: 15px 45px;*/
+
+/*.inercontainer{
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 17px;*/
+}
+
+.biglogo{
+    background-image: url("../img/biglogo.png");
+    width: 910px;
+    height: 236px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 4%;
+}

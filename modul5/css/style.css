@@ -2,14 +2,14 @@
 @import"font.css";
 @import "header.css";
 body{
+    background-image: url("../img/fon.png");
+    background-repeat: no-repeat;
     height:100%;
-    font-family: 'helvetica_neueregular';
-
+    font-family: "helvetica_neueregular",Tahoma, SansSerif ;
+    background-size: cover;                                       /*картинка на всю ширину экрана*/
   }
 
 .wrapper{
-    background-image: url("../img/fon.png");
-    background-repeat: no-repeat;
     width: 1215px;
     height: 1028px;
     margin: 0 auto;
@@ -62,8 +62,10 @@ body{
     background-color: #336699;
     box-shadow: -1px 0 10px 2px rgba(51,102,153,1);
 	color:white;
+    border-bottom: 1px solid #6699cc;
+
 }
-::-webkit-input-placeholder{
+::-webkit-input-placeholder{              /*отступ placeholder*/
 	padding-left:20px;
 }
 
@@ -101,8 +103,7 @@ body{
 }
 .create a {
     text-decoration: none;
-   line-height: 37px;
-    /*margin-left: 21px;*/
+    line-height: 37px;
     font-size: 14px;
     color: white;
     display: block;
@@ -117,10 +118,10 @@ body{
     font-size: 11px;
 }
 span{
-  /*  text-align: center;*/
+
     margin-left: 33%;
 
 }
-.input{
+ .input:hover{
     padding: 0 20px;
 }
